@@ -1,6 +1,7 @@
 ﻿using Dima.Core.BaseResponses;
 using Dima.Core.Model;
 using Dima.Core.Requests.Transactions;
+using Dima.Core.Responses;
 
 namespace Dima.Core.Handlers
 {

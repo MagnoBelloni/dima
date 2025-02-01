@@ -6,7 +6,7 @@ namespace Dima.Core.Requests.Transactions
     public class CreateTransactionRequest : BaseRequest
     {
         [Required(ErrorMessage = "Titulo inválido")]
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Tipo inválido")]
         public ETransactionType Type { get; set; }

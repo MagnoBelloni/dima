@@ -1,10 +1,10 @@
 ﻿using Dima.Api.Common.Api;
 using Dima.Api.Models;
 using Dima.Core;
-using Dima.Core.BaseResponses;
 using Dima.Core.Handlers;
 using Dima.Core.Model;
 using Dima.Core.Requests.Categories;
+using Dima.Core.Responses;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 

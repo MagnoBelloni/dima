@@ -1,6 +1,7 @@
-﻿using System.Text.Json.Serialization;
+﻿using Dima.Core.BaseResponses;
+using System.Text.Json.Serialization;
 
-namespace Dima.Core.BaseResponses
+namespace Dima.Core.Responses
 {
     public class PagedResponse<TData> : BaseResponse<TData>
     {
@@ -14,10 +15,10 @@ namespace Dima.Core.BaseResponses
             PageSize = pageSize;
         }
 
-        public PagedResponse(TData? data, int code = Configuration.DefaultStatusCode, string message = null)
+        public PagedResponse(TData? data, int code = Configuration.DefaultStatusCode, string? message = null)
             : base(data, code, message)
         {
-            
+
         }
 
         public int CurrentPage { get; set; }

@@ -4,6 +4,7 @@ using Dima.Core.Common.Extensions;
 using Dima.Core.Handlers;
 using Dima.Core.Model;
 using Dima.Core.Requests.Transactions;
+using Dima.Core.Responses;
 using Microsoft.EntityFrameworkCore;
 
 namespace Dima.Api.Handlers

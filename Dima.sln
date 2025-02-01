@@ -9,8 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dima.Api", "Dima.Api\Dima.A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A930C7F-FD65-4B2B-80ED-4A96FE553362}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dima.Web", "Dima.Web\Dima.Web.csproj", "{09D3BC0A-7DE8-4C2F-B213-AB04D4F36F49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +29,10 @@ Global
 		{207F1F99-B550-4F1B-B2FC-AADB40F5D8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207F1F99-B550-4F1B-B2FC-AADB40F5D8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207F1F99-B550-4F1B-B2FC-AADB40F5D8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D3BC0A-7DE8-4C2F-B213-AB04D4F36F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D3BC0A-7DE8-4C2F-B213-AB04D4F36F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D3BC0A-7DE8-4C2F-B213-AB04D4F36F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D3BC0A-7DE8-4C2F-B213-AB04D4F36F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
